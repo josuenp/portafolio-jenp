@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador-De-Alura</title>
+</head>
+<body>
+    <header>
+        <h1>Encriptador</h1>
+    </header>
+
+    <div>
+        <textarea id="type-text" placeholder="Ingresa tu texto" spellcheck="false"></textarea>
+        <p>No ingresar mayusculas o acentuacionesa</p>
+    </div>
+
+    <div class="estructura">
+        <button id="cifrado">
+        <span>Cifrar</span>
+        </button>
+    </div>
+    
+    <div class="estructura">
+        <button id="decifrar" onclick="desencriptar()">
+            <span>Decifrar</span>
+        </button>
+    </div>
+    
+    <textarea id="second-text" placeholder="Ingresa el codigo"></textarea>
+    <div class="estructura">
+        <button id="copy" onclick="copiar()">
+        <span>Copiar</span>
+        </button>
+    </div>
+
+    <script src="Cifrado.js"></script>
+
+
+
+</body>
+
+
+</html>

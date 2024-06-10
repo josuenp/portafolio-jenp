@@ -1,0 +1,1 @@
+el proyecto en Java que te permitirá convertir divisas. Aprenderás a crear una aplicación práctica y útil que puedes usar en tu día a día. Verás cómo utilizar la programación orientada a objetos para crear un conversor de monedas , y cómo aplicar los conceptos de programación básicos en Java para resolver problemas reales. 

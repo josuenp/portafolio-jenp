@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    color: rgb(31, 199, 82);
+    text-align: center;
+}
+
+button {
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        #19ddb3,
+        rgb(67, 211, 0),
+        #36c000
+    );
+    border-radius: 6px;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+    text-align: center;
+    margin: 14px;
+    padding-bottom: 15px;
+}
+
+span {
+    background-color: #111;
+    padding: 6px 12px;
+    border-radius: 2px;
+    transition: .3s;
+}
+
+button:have span{
+    background: none;
+}
+
+button :active {
+    transform: scale(0.9);
+}
+
+textarea {
+    width: 600px;
+    height: 150px;
+    background-color: transparent;
+    color: rgb(31, 199, 82);
+    resize: none;
+    border-color: transparent;
+    font-size: 15px;
+}
+
+textarea::placeholder {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(31, 199, 82);
+}
